@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <locale.h>
 #include <windows.h>
 #include "contatos.h"
@@ -13,7 +14,7 @@ int main(int argc, char *argv[]) {
 	carregar(contatos, &total);
 	while(opcao !=7){
 		printf("GERENCIADOR-DE-CONTATOS\n\n");
-		printf("1-Cadastrar \n2-Listar \n3-Buscar por nome \n4-Editar \n5-Excluir \n6-Estatisticas \n7-Sair \n\nescolha uma opção: ");
+		printf("1-Cadastrar \n2-Listar \n3-Buscar por nome \n4-Editar \n5-Excluir \n6-Estatisticas \n7-Sair \n\nescolha uma opÃ§Ã£o: ");
 		scanf("%d", &opcao);
 		getchar();
 		system("cls");
@@ -46,3 +47,4 @@ int main(int argc, char *argv[]) {
 	}
 	return 0;
 }
+
