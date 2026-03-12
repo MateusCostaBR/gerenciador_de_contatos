@@ -40,7 +40,7 @@ Arquivo de cabeçalho que define a estrutura de dados e os protótipos das funç
 ## Tecnologias Utilizadas
 
 - Linguagem **C**
-- Compilador **GCC / Dev-C++**
+- Compilador **Dev-C++**
 - Manipulação de arquivos texto
 - Estrutura de dados utilizando **struct**
 
