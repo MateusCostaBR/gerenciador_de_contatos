@@ -169,8 +169,7 @@ int contarGmail(struct cadastro contatos[], int total){
 }
 
 void estatisticas(struct cadastro contatos[], int total){
-	int gmail; 
-	int outlook = 0; 
+	int gmail;
 	int capacidade = 0;
 	gmail = contarGmail(contatos, total);
 	capacidade = MAX - total;
@@ -205,3 +204,4 @@ void carregar(struct cadastro contatos[], int *total){
 	}
 	fclose(arquivo);
 }
+
