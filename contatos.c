@@ -189,10 +189,7 @@ void salvar(struct cadastro contatos[], int total){
 		return;
 	}
 	for(i = 0; i < total; i++){
-	    fprintf(arquivo,"%s;%s;%s\n",
-		contatos[i].nome,
-		contatos[i].telefone,
-		contatos[i].email);
+	    fprintf(arquivo,"%s;%s;%s\n", contatos[i].nome, contatos[i].telefone, contatos[i].email);
 	}
 	fclose(arquivo);
 }
@@ -208,4 +205,3 @@ void carregar(struct cadastro contatos[], int *total){
 	}
 	fclose(arquivo);
 }
-
