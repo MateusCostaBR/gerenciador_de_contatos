@@ -64,15 +64,16 @@ Responsável por fazer a revisão do código, apontando possíveis erros
 
 ## Como executar no Dev-C++
 
-1. Baixe ou clone este repositório.
-2. Abra o **Dev-C++**.
-3. Clique em **Arquivo → Novo → Projeto** ou **Arquivo → Novo → Arquivo Fonte**.
-4. Copie os arquivos do projeto:
+1. Abra o **Dev-C++**.
+2. Clique em **Arquivo → Novo → Projeto** e crie um **projeto em C**.
+3. Depois que o projeto for criado, **apague o arquivo `main.c` que vem por padrão** no projeto.
+4. No painel do projeto (lado esquerdo), clique com o **botão direito no nome do projeto** e selecione **Adicionar ao projeto → Novo arquivo** ou **Adicionar arquivo existente**.
+5. Adicione os arquivos do projeto:
    - `main.c`
    - `contatos.c`
    - `contatos.h`
-5. Adicione os arquivos ao projeto no Dev-C++.
-6. Clique em **Compilar e Executar (F11)**.
+6. Você pode **copiar e colar o código** dentro dos novos arquivos criados no Dev-C++ ou **adicionar os arquivos diretamente** se já os tiver baixado.
+7. Clique em **Executar → Compilar e Executar (F11)**.
 
 O programa será compilado e executado normalmente.
 
