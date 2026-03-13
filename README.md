@@ -54,21 +54,27 @@ Responsável principalmente pela implementação do arquivo **contatos.c**
 
 **Cauã Fernandes Cardoso Ferreira**  
 Matrícula: 2512330  
-Responsável principalmente pelo desenvolvimento do arquivo **contatos.h**
+Responsável principalmente pelo desenvolvimento do arquivo **contatos.h e main.c**
 
-**Roger Martins Soares Prado**  
+**João Pedro Moreira Machado**  
 Matrícula: 2512516  
-Responsável principalmente pela implementação do arquivo **main.c**
+Responsável por fazer a revisão do código, apontando possíveis erros
 
 ---
 
-## Como Executar o Projeto
+## Como executar no Dev-C++
 
-1. Baixar ou clonar o repositório.
-2. Abrir o projeto em um compilador C (Dev-C++, CodeBlocks ou GCC).
-3. Compilar o arquivo **main.c**.
-4. Executar o programa.
-5. Utilizar o menu interativo para gerenciar os contatos.
+1. Baixe ou clone este repositório.
+2. Abra o **Dev-C++**.
+3. Clique em **Arquivo → Novo → Projeto** ou **Arquivo → Novo → Arquivo Fonte**.
+4. Copie os arquivos do projeto:
+   - `main.c`
+   - `contatos.c`
+   - `contatos.h`
+5. Adicione os arquivos ao projeto no Dev-C++.
+6. Clique em **Compilar e Executar (F11)**.
+
+O programa será compilado e executado normalmente.
 
 ---
 
